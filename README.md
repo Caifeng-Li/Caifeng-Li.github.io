@@ -1,18 +1,16 @@
-# Caifeng Li — Academic Website / 学术个人主页
+# Caifeng Li — Academic Website
 
 A responsive bilingual (English/中文) academic website for GitHub Pages, with no CV page.
 
-## Website contents / 网站内容
+## Website contents
 
-- `index.html` — complete academic homepage / 网站主页
-- `styles.css` — styling and responsive layout / 页面样式
-- `script.js` — bilingual English / Chinese language toggle / 双语切换
-- `assets/favicon.svg` — favicon / 网站图标
-- `.nojekyll` — ensures static GitHub Pages deployment / 静态网站部署配置
+- `index.html` — complete academic homepage
+- `styles.css` — styling and responsive layout
+- `script.js` — bilingual English / Chinese language toggle
+- `assets/favicon.svg` — favicon
+- `.nojekyll` — ensures static GitHub Pages deployment
 
-**No CV file or CV link is included.** / **不包含 CV 文件或 CV 链接。**
-
-## Professional links / 学术链接
+## Professional links
 
 - GitHub: https://github.com/Caifeng-Li
 - LinkedIn: https://www.linkedin.com/in/licaifeng/
@@ -20,7 +18,7 @@ A responsive bilingual (English/中文) academic website for GitHub Pages, with 
 - ORCID: https://orcid.org/0000-0001-9157-367X
 - ResearchGate: https://www.researchgate.net/profile/Caifeng-Li
 
-## Publish using GitHub Pages / 部署步骤
+## Publish using GitHub Pages
 
 1. On GitHub, create a **Public** repository named **`Caifeng-Li.github.io`** (the name must match the account username).
 2. Extract the ZIP. Upload **the files and the `assets` folder inside the extracted directory** to the repository root via **Add file → Upload files**, and commit changes.
@@ -28,7 +26,7 @@ A responsive bilingual (English/中文) academic website for GitHub Pages, with 
 4. Your site will appear at **https://caifeng-li.github.io/** once GitHub finishes deploying it.
 5. To update the website later, edit `index.html` (content), `styles.css` (design), or `script.js` (Chinese/English translations) and commit the changes.
 
-## Checks before publication / 发布前核对
+## Checks before publication
 
 - Confirm the email address listed in `index.html` is the one you want public.
 - Confirm the ORCID identifier and academic publication details.
@@ -37,4 +35,4 @@ A responsive bilingual (English/中文) academic website for GitHub Pages, with 
 
 ## Publication update (November 2026)
 
-Two co-authored papers were added under **Additional Publications**: Forestry Research (2021), DOI 10.48130/FR-2021-0019; and Microbiology China (2023), DOI 10.13344/j.microbiol.china.221248. Publications remain bilingual where appropriate. No CV is included.
+Publications remain bilingual where appropriate.
