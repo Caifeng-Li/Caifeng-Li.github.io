@@ -53,3 +53,7 @@ body{font-size:16px;color:#1f2740}
 
 /* Readable acronym labels in the research software cards */
 .software-symbol{font-size:31px;letter-spacing:.015em;font-weight:800}
+
+/* Equal-first-author note for OmeSim. */
+.equal-contrib-mark{font-size:.75em;vertical-align:super;margin-left:1px;color:#5543ad}
+.equal-contrib-note{font-size:12px;line-height:1.5;color:#45516c;margin:1px 0 9px}
