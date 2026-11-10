@@ -18,3 +18,35 @@
 
 /* Linked supervisor names in both language versions */
 .supervisor-link{color:#6052ca;text-decoration:underline;text-decoration-color:rgba(96,82,202,.3);text-underline-offset:3px;font-weight:700}.supervisor-link:hover,.supervisor-link:focus-visible{color:#3c2ca5;text-decoration-color:currentColor}.supervisor-scholar{color:#6052ca;font-size:.7em;font-weight:700;white-space:nowrap}.supervisor-scholar:hover{text-decoration:underline}
+
+/* November 2026: high-contrast, more readable academic site */
+:root{--muted:#414b63;--soft:#505a70;--line:#dce1eb;--purple:#4d3bc0}
+body{font-size:16px;color:#1f2740}
+.nav a,.mobile-nav a{font-size:14px;color:#26324d}
+.hero-support,.section-intro,.software-card p,.contact-box p{font-size:16px;line-height:1.85}
+.hero-links a,.paper-links,.software-card>a{font-size:14px}
+.about-main p{font-size:18px;color:#303c54}
+.section-kicker,.panel-label,.aside-title{font-size:12px}
+.research-card h3{font-size:20px}.research-card p{font-size:15px;color:#35425b}
+.chip-row span{font-size:12px;color:#3d4760}
+.paper-year{color:#475574;font-size:18px}.paper-meta{font-size:12px;color:#4c3ba4}
+.paper h3{font-size:20px}.paper-authors,.paper-summary{font-size:15px;color:#35415a}
+.paper-links{font-size:14px}.paper-additional h3{font-size:19px}.paper-additional .paper-summary{font-size:15px}
+.award-row>span,.award-row small{font-size:14px;color:#414e67}.award-row strong{font-size:16px}
+.service-item p{font-size:16px;color:#303b54}.aside-item strong{font-size:15px}.aside-item span{font-size:12px;color:#465169}
+.metrics span{font-size:14px;color:#36435d}.profile-card{font-size:16px}
+.quote-banner{background:linear-gradient(118deg,#1c2445 0%,#303b70 60%,#335d74 100%);color:#fff;overflow:hidden}
+.quote-inner{display:flex;gap:23px;align-items:flex-start;padding-top:35px;padding-bottom:33px;max-width:1160px}
+.quote-glyph{font-family:Georgia,serif;font-size:96px;line-height:.88;color:#9dd3d6;opacity:.85;flex:none}
+.quote-content{max-width:1000px}.quote-text{font-family:Georgia,'Times New Roman',serif;font-size:clamp(19px,2.25vw,28px);line-height:1.55;letter-spacing:-.015em;font-style:italic;margin:0 0 15px}
+.quote-source{font-size:14px;color:#e0e9f6;letter-spacing:.02em;margin:0}.quote-source a{font-weight:800;color:#fff;text-decoration:underline;text-underline-offset:3px}
+.feature-link{color:#4d3bc0;font-weight:800;white-space:normal}.feature-link:hover{text-decoration:underline}
+.teaching-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.teaching-panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:32px}
+.teaching-panel h3{font-size:20px;line-height:1.4;margin:0 0 8px}.experience-period{color:#4a5570;margin:0 0 18px;font-size:14px}
+.course-list,.talk-list{list-style:none;margin:0;padding:0}.course-list li{border-top:1px solid var(--line);padding:12px 0;display:flex;gap:13px;align-items:baseline;font-size:15px;line-height:1.5;color:#293650}
+.course-code{color:#4d3bc0;font-weight:800;min-width:75px;flex:none}
+.talk-list li{border-top:1px solid var(--line);padding:17px 0;display:flex;gap:17px;align-items:baseline}
+.talk-date{min-width:65px;color:#4d3bc0;font-size:13px;font-weight:800;flex:none}.talk-list strong{display:block;font-size:16px;line-height:1.45}.talk-list small{display:block;font-size:14px;margin-top:4px;color:#49556a}
+@media(max-width:1050px){.nav{gap:10px}.nav a{font-size:12px}}
+@media(max-width:800px){.teaching-grid{grid-template-columns:1fr}.quote-inner{padding-top:28px;padding-bottom:28px}.quote-glyph{font-size:64px}}
+@media(max-width:560px){.quote-inner{gap:10px}.quote-glyph{font-size:47px}.quote-text{font-size:19px}.quote-source{font-size:12px}.teaching-panel{padding:23px}.course-list li{font-size:14px}.hero-support{font-size:16px}}
