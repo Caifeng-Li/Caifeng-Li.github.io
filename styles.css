@@ -15,3 +15,6 @@
 .additional-publications-heading p { color: var(--muted, #64748b); margin: .55rem 0 0; font-size: .92rem; }
 .paper-additional h3 { font-size: clamp(1.05rem, 1.7vw, 1.3rem); }
 .paper-additional .paper-summary { font-size: .92rem; }
+
+/* Linked supervisor names in both language versions */
+.supervisor-link{color:#6052ca;text-decoration:underline;text-decoration-color:rgba(96,82,202,.3);text-underline-offset:3px;font-weight:700}.supervisor-link:hover,.supervisor-link:focus-visible{color:#3c2ca5;text-decoration-color:currentColor}.supervisor-scholar{color:#6052ca;font-size:.7em;font-weight:700;white-space:nowrap}.supervisor-scholar:hover{text-decoration:underline}
