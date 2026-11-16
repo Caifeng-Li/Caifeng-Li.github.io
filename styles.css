@@ -128,3 +128,12 @@ body{font-size:16px;color:#1f2740}
 @media (max-width: 700px) {
   .visitor-map-widget { overflow-x: auto; }
 }
+
+/* Stats4U original map style, gently reduced and horizontally centered. */
+.visitor-map-widget > :not(script):not(noscript) {
+  zoom: .90;
+  margin-inline: auto !important;
+}
+@media (max-width: 700px) {
+  .visitor-map-widget > :not(script):not(noscript) { zoom: .82; }
+}
