@@ -57,3 +57,27 @@ body{font-size:16px;color:#1f2740}
 /* Equal-first-author note for OmeSim. */
 .equal-contrib-mark{font-size:.75em;vertical-align:super;margin-left:1px;color:#5543ad}
 .equal-contrib-note{font-size:12px;line-height:1.5;color:#45516c;margin:1px 0 9px}
+
+
+/* Global visitors section: responsive and honest about data availability. */
+.visitors-section{padding-top:78px;padding-bottom:95px}
+.visitor-board{margin-top:28px;border:1px solid #cedce1;border-radius:19px;overflow:hidden;background:#fff;box-shadow:0 12px 32px rgba(23,53,77,.045)}
+.visitor-board-head{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 29px;border-bottom:1px solid #dbe5e8}
+.visitor-board-heading{display:flex;align-items:center;gap:14px}
+.visitor-world-icon{font-size:32px;color:#247f92;line-height:1}
+.visitor-board-heading strong{font-size:18px;letter-spacing:-.02em;display:block;color:#172a34}
+.visitor-board-heading small{display:block;font-size:14px;color:#435966;margin-top:4px}
+.visitor-live-indicator{font-size:13px;font-weight:700;color:#596b78;background:#edf2f5;padding:9px 13px;border-radius:100px;white-space:nowrap}
+.visitor-live-indicator.connected{color:#15745e;background:#e9f8f1}
+.visitor-map-frame{min-height:410px;position:relative;background:#fbfdfe}
+.visitor-map-iframe{display:block;min-height:495px;width:100%;border:0;background:white}
+.visitor-map-placeholder{min-height:410px;display:flex;align-items:center;justify-content:center;position:relative;isolation:isolate;overflow:hidden}
+.visitor-world-art{position:absolute;inset:0;width:100%;height:100%;opacity:.8;z-index:-1;object-fit:cover}
+.visitor-placeholder-content{text-align:center;max-width:550px;padding:30px 28px;background:rgba(255,255,255,.92);border:1px solid #e4ecef;border-radius:15px;box-shadow:0 8px 26px rgba(44,85,104,.06)}
+.visitor-placeholder-badge{font-size:11px;letter-spacing:.15em;font-weight:800;color:#257b8b}
+.visitor-placeholder-content h3{font-size:23px;line-height:1.35;letter-spacing:-.03em;margin:12px 0}
+.visitor-placeholder-content p{color:#405768;font-size:16px;line-height:1.7;margin:0 0 16px}
+.visitor-placeholder-content a{font-size:15px;font-weight:800;color:#1b7789;text-decoration:underline;text-underline-offset:4px}
+.visitor-board-foot{padding:18px 28px;border-top:1px solid #dbe5e8;display:flex;align-items:center;justify-content:space-between;gap:16px;color:#4a606c;font-size:13px;line-height:1.6}
+.visitor-board-foot a{color:#226e80;white-space:nowrap;font-weight:750}
+@media(max-width:700px){.visitor-board-head{padding:18px;align-items:flex-start}.visitor-board-heading strong{font-size:16px}.visitor-board-heading small{font-size:12px}.visitor-live-indicator{font-size:11px}.visitor-map-frame,.visitor-map-placeholder{min-height:350px}.visitor-map-iframe{min-height:420px}.visitor-placeholder-content{margin:15px}.visitor-board-foot{padding:16px 18px;align-items:flex-start;flex-direction:column}}
