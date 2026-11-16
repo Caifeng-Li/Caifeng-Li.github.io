@@ -102,3 +102,29 @@ body{font-size:16px;color:#1f2740}
 .visitor-compact-title{font-size:clamp(1.4rem,2vw,1.85rem);font-weight:700;color:#172a34;letter-spacing:-.025em;margin:0 0 22px;text-align:center}
 .visitor-compact-foot{font-size:14px;color:#405563;line-height:1.6;margin:18px auto 0;text-align:center;max-width:720px}
 .visitor-map-widget{max-width:100%;margin:0 auto}
+
+/* Center dynamically injected Stats4U map markup, not just its containing section. */
+.visitor-map-widget {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 0;
+}
+.visitor-map-widget > :not(script):not(noscript),
+.visitor-map-widget > :not(script):not(noscript) > :first-child {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.visitor-map-widget iframe,
+.visitor-map-widget img,
+.visitor-map-widget svg,
+.visitor-map-widget canvas {
+  display: block;
+  max-width: 100% !important;
+}
+@media (max-width: 700px) {
+  .visitor-map-widget { overflow-x: auto; }
+}
