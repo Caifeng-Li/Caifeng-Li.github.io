@@ -81,3 +81,9 @@ body{font-size:16px;color:#1f2740}
 .visitor-board-foot{padding:18px 28px;border-top:1px solid #dbe5e8;display:flex;align-items:center;justify-content:space-between;gap:16px;color:#4a606c;font-size:13px;line-height:1.6}
 .visitor-board-foot a{color:#226e80;white-space:nowrap;font-weight:750}
 @media(max-width:700px){.visitor-board-head{padding:18px;align-items:flex-start}.visitor-board-heading strong{font-size:16px}.visitor-board-heading small{font-size:12px}.visitor-live-indicator{font-size:11px}.visitor-map-frame,.visitor-map-placeholder{min-height:350px}.visitor-map-iframe{height:660px;min-height:660px}.visitor-placeholder-content{margin:15px}.visitor-board-foot{padding:16px 18px;align-items:flex-start;flex-direction:column}}
+
+/* Third-party Stats4U map, with responsive bounds. The provider controls the internal design. */
+.visitor-map-frame{min-height:260px;padding:24px;background:#fff;overflow-x:auto}
+.stats4u-widget{width:100%;max-width:100%;min-height:240px;overflow-x:auto;color:#172a34;font-size:16px}
+.stats4u-widget img,.stats4u-widget iframe{max-width:100%;height:auto}
+@media(max-width:700px){.visitor-map-frame{padding:12px;min-height:180px}.stats4u-widget{min-height:160px}}

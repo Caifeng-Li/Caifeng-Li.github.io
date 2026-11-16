@@ -8,7 +8,6 @@
   <title>Caifeng Li | Researcher in Statistical Genetics & AI</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
-  <script src="visitor-map-config.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -61,15 +60,14 @@
       <div class="container">
         <div class="section-heading"><div><span class="section-kicker">08 / <span data-i18n="visitorLabel">VISITORS</span></span><h2 id="visitor-heading" data-i18n="visitorHeading">Visitors from around the world.</h2></div><p class="section-intro" data-i18n="visitorIntro">A glimpse of the places this research website reaches.</p></div>
         <div class="visitor-board">
-          <!-- The map is populated by a third-party visitor map. Set its personal iframe URL in visitor-map-config.js. -->
-          <div class="visitor-board-head"><div class="visitor-board-heading"><span class="visitor-world-icon" aria-hidden="true">◎</span><div><strong data-i18n="visitorBoardTitle">Global readership</strong><small data-i18n="visitorBoardSubtitle">Country-level visitor map and statistics</small></div></div><span class="visitor-live-indicator" id="visitorMapStatus" data-i18n="visitorPending">Not connected yet</span></div>
+          <div class="visitor-board-head"><div class="visitor-board-heading"><span class="visitor-world-icon" aria-hidden="true">◎</span><div><strong data-i18n="visitorBoardTitle">Global readership</strong><small data-i18n="visitorBoardSubtitle">Country-level visitor map and statistics</small></div></div><span class="visitor-live-indicator connected" id="visitorMapStatus" data-i18n="visitorActive">Live visitor map</span></div>
           <div class="visitor-map-frame" id="visitorMapFrame">
-            <div class="visitor-map-placeholder" id="visitorMapPlaceholder">
-              <svg class="visitor-world-art" viewBox="0 0 1000 470" aria-hidden="true"><defs><pattern id="vmDots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#b9d2db" opacity=".45"/></pattern></defs><rect width="1000" height="470" fill="url(#vmDots)"/><g fill="#d9e8ea" stroke="#fff" stroke-width="3" opacity=".95"><path d="M88 106 146 67 201 64 232 84 267 84 285 115 256 141 223 154 215 189 181 206 172 232 153 210 135 174 98 167 69 139Z"/><path d="M217 229 252 251 270 295 250 337 238 376 206 408 182 364 169 325 177 280Z"/><path d="M363 99 401 75 455 73 472 91 493 83 540 98 591 82 655 100 706 82 760 101 793 132 753 154 717 164 687 191 653 184 614 166 565 183 530 162 491 177 462 152 423 169 389 139Z"/><path d="M399 193 438 177 496 198 524 239 505 289 480 332 458 370 426 340 417 298 391 255Z"/><path d="M753 288 802 266 860 293 892 339 850 373 783 354Z"/><path d="M287 63 315 46 333 67 320 93 293 88Z"/><path d="M514 63 542 39 565 57 540 79Z"/><path d="M825 197 838 217 825 246 814 225Z"/></g></svg>
-              <div class="visitor-placeholder-content"><span class="visitor-placeholder-badge" data-i18n="visitorReady">MAP READY</span><h3 data-i18n="visitorSetupTitle">Your visitor map is ready to connect.</h3><p data-i18n="visitorSetupBody">Activate a free visitor map to display real visitor counts and countries here. No sample statistics are shown.</p><a href="https://statflag.com/" target="_blank" rel="noopener noreferrer" data-i18n="visitorSetupLink">Create a free visitor map ↗</a></div>
+            <div class="stats4u-widget" aria-label="Visitor world map powered by Stats4U">
+              <script async src="https://www.stats4u.net/js/karte.js" data-s4uid="1153560791" data-style="map_w" data-params="pal=amber&amp;bg=none&amp;skala=1&amp;dark=auto" data-lang="en"></script>
+              <noscript><p>Visitor statistics require JavaScript. <a href="https://www.stats4u.net/live/1153560791" target="_blank" rel="noopener noreferrer">View statistics on Stats4U ↗</a></p></noscript>
             </div>
           </div>
-          <div class="visitor-board-foot"><span data-i18n="visitorFoot">Visitor counts and geographic estimates will be provided by your chosen map service once connected.</span><a href="https://statflag.com/" target="_blank" rel="noopener noreferrer" id="visitorMapProvider" data-i18n="visitorProvider">Map provider ↗</a></div>
+          <div class="visitor-board-foot"><span data-i18n="visitorFoot">Visitor statistics are provided by Stats4U. Counts and geographical estimates follow the provider’s methodology.</span><a href="https://www.stats4u.net/live/1153560791" target="_blank" rel="noopener noreferrer" id="visitorMapProvider" data-i18n="visitorProvider">Map provider ↗</a></div>
         </div>
       </div>
     </section>
