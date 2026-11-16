@@ -1,3 +1,3 @@
 # Caifeng Li — Academic Homepage
 
-My academic homepage presents my research, publications, software, awards, teaching, conference presentations, scholarly profiles, and visitor statistics. Available in English and French.
+This is my academic homepage, featuring my research interests, publications, open-source software, awards, academic service, teaching, conference presentations, and links to scholarly and professional profiles. The site is available in English and French.
