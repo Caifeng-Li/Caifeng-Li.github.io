@@ -63,8 +63,8 @@ if (backToTop) backToTop.addEventListener('click', (event) => {
   iframe.src = u.href;
   iframe.title = 'Visitor map · Carte des visiteurs';
   iframe.loading = 'lazy';
-  iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-  iframe.setAttribute('allowfullscreen','');
+  iframe.referrerPolicy = 'no-referrer';
+  iframe.height = '660';
   iframe.className = 'visitor-map-iframe';
   host.replaceChildren(iframe);
   const status = document.getElementById('visitorMapStatus');
