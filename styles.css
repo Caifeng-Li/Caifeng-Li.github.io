@@ -102,3 +102,65 @@ body{font-size:16px;color:#1f2740}
 .visitor-display-heading{font-family:Georgia,serif;font-size:clamp(28px,3vw,40px);line-height:1.2;letter-spacing:-.025em;color:#202842;text-align:center;margin:0 0 26px}
 .visitor-display-footnote{font-size:clamp(11px,1.05vw,13px);line-height:1.5;color:#47536c;text-align:center;white-space:nowrap;margin:20px auto 0;max-width:100%}
 @media(max-width:760px){.visitor-display-heading{font-size:28px;margin-bottom:18px}.visitor-display-footnote{font-size:12px;white-space:normal;max-width:560px}}
+
+/* Cross-browser Stats4U map layout (Safari and Chrome).
+   Explicitly centre the heading, externally injected widget, and caption.
+   The widget retains Stats4U's own dimensions; no gr parameter is used. */
+#visitors.visitors-section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(100% - 40px, 1160px);
+  margin-inline: auto;
+}
+#visitors.visitors-section h2.visitor-display-heading {
+  display: block;
+  width: 100%;
+  margin: 0 0 22px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: #202842;
+}
+#visitors .visitor-map-compact {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: visible;
+}
+#visitors .visitor-map-compact > :not(script):not(noscript) {
+  margin-inline: auto;
+  max-width: 100%;
+}
+#visitors .visitor-map-compact iframe,
+#visitors .visitor-map-compact img,
+#visitors .visitor-map-compact svg,
+#visitors .visitor-map-compact canvas {
+  max-width: 100%;
+}
+#visitors.visitors-section p.visitor-display-footnote {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 22px 0 0;
+  color: #47536c;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+}
+@media (max-width: 800px) {
+  #visitors.visitors-section p.visitor-display-footnote {
+    white-space: normal;
+    font-size: 12px;
+  }
+}
