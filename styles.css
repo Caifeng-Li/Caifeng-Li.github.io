@@ -87,3 +87,7 @@ body{font-size:16px;color:#1f2740}
 .stats4u-widget{width:100%;max-width:100%;min-height:240px;overflow-x:auto;color:#172a34;font-size:16px}
 .stats4u-widget img,.stats4u-widget iframe{max-width:100%;height:auto}
 @media(max-width:700px){.visitor-map-frame{padding:12px;min-height:180px}.stats4u-widget{min-height:160px}}
+
+/* Compact visitors introduction, without the former heading or description. */
+.visitor-section-kicker{margin-bottom:16px}
+.visitors-section .visitor-board{margin-top:0}
